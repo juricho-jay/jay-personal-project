@@ -1,0 +1,28 @@
+public class Exam0510 {
+  public static void main(String[] args) {
+    char[] alphabet = new char('A');
+    
+    for (int i = 0; i < 26; i++) {
+       alphabet[i] = (char)('A' + i);
+       System.out.print(alphabet[i] + "\n"); 
+    }
+    
+
+
+int i 에서 int좀 그만 까먹어라
+alphabet[i]
+
+다음에는 내가 입력한 수만큼 알파벳 갯수를 출력하는 걸 해볼까
+
+음....
+일단 입력하는 거니까 Scanner가 필요하겠지
+
+변수 app2에서 썼던 걸 활용하면 되겠다.
+그리고 for 문에서 입력한 만큼이라는 ...size! 메모리? size = 0; 초기화 시키고 size++ 하고
+마지막 출력에서 for문 두 번째 조건에 i < size; 넣으면 될듯?
+
+잉 근데 나는 엔터를 칠 때마다 출력하고 싶은게 아니라
+그냥 입력 한 번만 숫자를 치면 그 수만큼 출력하고 싶은 거잖아...?
+안배웠던 것 같은데 구글링해야겠다.
+
+
